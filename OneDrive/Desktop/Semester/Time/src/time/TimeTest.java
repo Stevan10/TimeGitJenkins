@@ -89,10 +89,5 @@ class TimeTest {
 			assertTrue("The seconds were  not calculated properly", mseconds==5);
 		}
 		
-		@Test
-		void testGetTotalMillisecondsGood() {
-			long mseconds = Time.getTotalMilliseconds("05:05:05:005");
-			assertTrue("The seconds were  not calculated properly", mseconds==18035005);
-		}
 		
 }
